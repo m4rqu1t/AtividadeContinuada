@@ -43,7 +43,6 @@ public class Titulo {
         this.status = status;
     }
 
-    // Getters e Setters
     public InvestidorPessoa getInvestidorPessoa() {
         return investidorPessoa;
     }
@@ -168,7 +167,8 @@ public class Titulo {
                 "000" +
                 this.investidorPessoa.getCpf() +
                 this.ativo.getCodigo() +
-                dataStr
+                dataStr +
+                "0000"
             );
         } else if (this.investidorEmpresa != null) {
             return (
