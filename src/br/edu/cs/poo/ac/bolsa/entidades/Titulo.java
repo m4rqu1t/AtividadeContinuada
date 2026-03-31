@@ -174,7 +174,8 @@ public class Titulo {
             return (
                 this.investidorEmpresa.getCnpj() +
                 this.ativo.getCodigo() +
-                dataStr
+                dataStr +
+                "0000"
             );
         }
 
