@@ -1,6 +1,8 @@
 package br.edu.cs.poo.ac.bolsa.entidade;
 
-public enum StatusTitulo {
+import java.io.Serializable;
+
+public enum StatusTitulo implements Serializable {
     ATIVO(1, "Titulo ativo"),
     CANCELADO(2, "Titulo cancelado"),
     VENCIDO(3, "Titulo vencido");

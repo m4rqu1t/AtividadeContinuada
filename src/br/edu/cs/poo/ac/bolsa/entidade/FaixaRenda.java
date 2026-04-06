@@ -1,6 +1,8 @@
 package br.edu.cs.poo.ac.bolsa.entidade;
 
-public enum FaixaRenda {
+import java.io.Serializable;
+
+public enum FaixaRenda implements Serializable {
     REGULAR(1, "Renda regular", 10000.00, 50000.00),
     DIFERENCIADA(2, "Renda diferenciada", 5000.01, 300000.00),
     PREMIUM(3, "Renda premium", 300000.01, 100000000.00);

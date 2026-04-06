@@ -1,6 +1,8 @@
 package br.edu.cs.poo.ac.bolsa.entidade;
 
-public class Endereco {
+import java.io.Serializable;
+
+public class Endereco implements Serializable {
 
     private String logradouro;
     private String cep;
