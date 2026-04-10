@@ -1,5 +1,6 @@
 package br.edu.cs.poo.ac.bolsa.entidade;
 
+import br.edu.cs.poo.ac.bolsa.entidade.Investidor;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -7,6 +8,8 @@ public class InvestidorEmpresa extends Investidor {
 
     private String cnpj;
     private double faturamento;
+
+    public InvestidorEmpresa() {}
 
     public InvestidorEmpresa(
         String nome,

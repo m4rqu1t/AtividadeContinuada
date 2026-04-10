@@ -13,6 +13,8 @@ public class Ativo implements Serializable {
     private FaixaRenda faixaMinimaPermitida;
     private int prazoEmMeses;
 
+    public Ativo() {}
+
     public Ativo(
         long codigo,
         String descricao,

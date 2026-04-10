@@ -9,6 +9,8 @@ public class InvestidorPessoa extends Investidor {
     private double renda;
     private FaixaRenda faixaRenda;
 
+    public InvestidorPessoa() {}
+
     public InvestidorPessoa(
         String nome,
         Endereco endereco,

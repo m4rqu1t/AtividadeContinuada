@@ -20,6 +20,8 @@ public class Titulo implements Serializable {
     private LocalDate dataUltimoRendimento;
     private StatusTitulo status;
 
+    public Titulo() {}
+
     public Titulo(
         InvestidorPessoa investidorPessoa,
         InvestidorEmpresa investidorEmpresa,

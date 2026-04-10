@@ -2,9 +2,9 @@ package br.edu.cs.poo.ac.bolsa.dao;
 
 import br.edu.cs.poo.ac.bolsa.entidade.Titulo;
 
-public class TituloDAO extends DAOGenerico {
+public class DAOTitulo extends DAOGenerico {
 
-    public TituloDAO() {
+    public DAOTitulo() {
         inicializarCadastro(Titulo.class);
     }
 
